@@ -11,6 +11,12 @@ app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
+#port = 5000
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+   return render_template("index.html")
+
 allowedChar = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-'!#$%&()*+,./:;<=>?@[\]^_`{|}~ "
 
 def checkEmail(email):
@@ -84,6 +90,7 @@ def hash(password):
    password = hashing_object.hexdigest()
    return password
 
-@app.route("/", methods=["GET", "POST"])
-def index():
-   return render_template("index.html")
+"""
+if __name__ == '__main__':
+    app.run(debug=True, port=port)
+"""

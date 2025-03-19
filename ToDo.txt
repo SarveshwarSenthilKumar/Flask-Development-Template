@@ -1,5 +1,4 @@
 To Do List/Features to Add:
-    - Add app.run() as a comment to where it is optional
     - Created a new app.py file with an automatic authentication system built in
     - Create the ReadMe File for the GitHub repository
     - Create requirements.txt
