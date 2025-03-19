@@ -11,7 +11,7 @@ app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-#port = 5000
+port = 5000 #Change to any port of your choice
 
 @app.route("/", methods=["GET", "POST"])
 def index():
