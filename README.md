@@ -29,6 +29,10 @@ The project follows a standard Flask application structure:
 ```
 Flask-Development-Template/
 ├── templates/
+│   ├── auth/
+│   │   └── loggedIn.html
+│   │   └── login.html
+│   │   └── signup.html
 │   └── index.html
 ├── app.py
 ├── createDatabase.py
@@ -37,10 +41,21 @@ Flask-Development-Template/
 ```
 
 - `templates/`: Contains HTML templates rendered by Flask views.
+- `templates/auth`: Contains HTML templates rendered by Flask views specifically for authentication purposes.
 - `app.py`: Main application file where the Flask app is initialized and routes are defined.
 - `createDatabase.py`: Script to initialize and populate the SQLite database.
 - `requirements.txt`: Lists Python dependencies required for the project.
 - `ToDo.txt`: A placeholder for tracking tasks and future enhancements.
+
+### Additional Files
+
+- `SarvAuth.py`: Python functions useful for authentication.
+    - CheckEmail(email) - returns True(Valid Email) or False(Invalid Email) using a regular expressions check. 
+    - VerifyName(name) - returns [True, name] or [False, error] by checking for special characters and capitalizing first letter of each name.
+    - CheckUserPassword(username, password) - returns [True] or [False, error] by checking both username and password by standard validating characteristics.
+    - hash(password) - returns a password hashed using the SHA.256 module.
+
+- `sql.py`: Python package for SQLite Database Management created by Harvard (Updated for 2025). https://cs50.harvard.edu/x/2025/
 
 ## Getting Started
 
