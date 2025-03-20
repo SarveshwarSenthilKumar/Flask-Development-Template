@@ -1,3 +1,6 @@
 To Do List/Features to Add:
     - Created a new app.py file with an automatic authentication system built in
-    - Create the ReadMe File for the GitHub repository
+    - Update README file to keep up with customizable features in the template
+    - Support for Multiple Databases – Add PostgreSQL/MySQL support via SQLAlchemy.
+    - Bootstrap or TailwindCSS Integration – Improve default UI with modern styling.
+    - Blueprints for Modular Development – Improve project scalability by structuring routes into Flask Blueprints.
