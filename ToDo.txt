@@ -4,3 +4,5 @@ To Do List/Features to Add:
     - Support for Multiple Databases – Add PostgreSQL/MySQL support via SQLAlchemy.
     - Bootstrap or TailwindCSS Integration – Improve default UI with modern styling.
     - Blueprints for Modular Development – Improve project scalability by structuring routes into Flask Blueprints.
+    - Mention how you can toggle authentication in README
+    - Mention how you can toggle autorun in README
