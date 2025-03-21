@@ -1,5 +1,4 @@
 To Do List/Features to Add:
-    - Created a new app.py file with an automatic authentication system built in
     - Update README file to keep up with customizable features in the template
     - Support for Multiple Databases – Add PostgreSQL/MySQL support via SQLAlchemy.
     - Bootstrap or TailwindCSS Integration – Improve default UI with modern styling.
@@ -7,3 +6,5 @@ To Do List/Features to Add:
     - Mention how you can toggle authentication in README
     - Mention how you can toggle autorun in README
     - Add support for OAuth
+    - Add how you can change the encryption key in .env, add how you can add a .gitignore
+    - Add how you can change the different fields you want in the database

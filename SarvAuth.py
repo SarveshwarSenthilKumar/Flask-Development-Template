@@ -1,5 +1,11 @@
 import hashlib
 import re
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+# Authentication Encryption Key (Replace with your actual encryption string)
+ENCRYPTION_KEY = os.getenv("ENCRYPTION_KEY")
 
 allowedChar = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-'!#$%&()*+,./:;<=>?@[\]^_`{|}~ "
 
@@ -69,7 +75,7 @@ def checkUserPassword(username, password):
       return [True]
 
 def hash(password):
-   hashing_object = hashlib.sha256()
-   hashing_object.update(password.encode())
-   password = hashing_object.hexdigest()
-   return password
+    hashing_object = hashlib.sha256()
+    hashing_object.update((password + ENCRYPTION_KEY).encode())  # Combine password and encryption string
+    password_hash = hashing_object.hexdigest()
+    return password_hash
