@@ -8,3 +8,4 @@ To Do List/Features to Add:
     - Add support for OAuth
     - Add how you can change the encryption key in .env, add how you can add a .gitignore
     - Add how you can change the different fields you want in the database
+    - Add a part about famous sites which use Flask such as Reddit, Lyft, Netflix, Patreon, Pinterest, trivago, uber, Zalando, Airbnb, PythonAnywhere, Google Sites
