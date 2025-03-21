@@ -12,7 +12,7 @@ Session(app)
 
 autoRun = False #Change to True if you want to run the server automatically by running the app.py file
 port = 5000 #Change to any port of your choice if you want to run the server automatically
-authentication = True #Change to False if you want to disable user authentication
+authentication = False #Change to False if you want to disable user authentication
 
 #This route is the base route for the website which renders the index.html file
 @app.route("/", methods=["GET", "POST"])

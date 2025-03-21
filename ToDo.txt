@@ -6,3 +6,4 @@ To Do List/Features to Add:
     - Blueprints for Modular Development – Improve project scalability by structuring routes into Flask Blueprints.
     - Mention how you can toggle authentication in README
     - Mention how you can toggle autorun in README
+    - Add support for OAuth
