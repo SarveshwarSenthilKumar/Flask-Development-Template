@@ -35,6 +35,7 @@ Flask-Development-Template/
 │   │   └── signup.html
 │   └── index.html
 ├── app.py
+├── auth.py
 ├── createDatabase.py
 ├── requirements.txt
 └── ToDo.txt
@@ -43,6 +44,7 @@ Flask-Development-Template/
 - `templates/`: Contains HTML templates rendered by Flask views.
 - `templates/auth`: Contains HTML templates rendered by Flask views specifically for authentication purposes.
 - `app.py`: Main application file where the Flask app is initialized and routes are defined.
+- `auth.py`: Main application file where the Flask app is initialized and routes are defined for authentication portal via Flask Blueprint.
 - `createDatabase.py`: Script to initialize and populate the SQLite database.
 - `requirements.txt`: Lists Python dependencies required for the project.
 - `ToDo.txt`: A placeholder for tracking tasks and future enhancements.
@@ -136,8 +138,8 @@ Contributions are welcome! To contribute:
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request detailing your changes.
 
-For any questions or suggestions, email Sarveshwar Senthil Kumar at Sarveshwar313@gmail.com
-Feel free to add on to ToDo.txt
+For any questions or suggestions, email Sarveshwar Senthil Kumar at Sarveshwar313@gmail.com.
+Feel free to add on to ToDo.txt.
 
 ## License
 
