@@ -81,7 +81,7 @@
             {{ error }}
         </div>
 
-        <form action="/signup" method="POST">
+        <form action="/auth/signup" method="POST">
             <input name="name" type="text" placeholder="Full Name" required>
             <input name="emailaddress" type="email" placeholder="Email Address" required>
             <input name="username" type="text" placeholder="Username" required>
@@ -90,7 +90,7 @@
         </form>
         
         <button onclick="location.href='/'">Back to Home</button>
-        <button onclick="location.href='/login'">Already have an account? Login</button>
+        <button onclick="location.href='/auth/login'">Already have an account? Login</button>
         <div class="footer">Flask Development Template - Created by Sarveshwar Senthil Kumar</div>
     </div>
 
