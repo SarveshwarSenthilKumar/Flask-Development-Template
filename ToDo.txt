@@ -1,14 +1,10 @@
 To Do List/Features to Add:
-    - Update README file to keep up with customizable features in the template
     - Support for Multiple Databases – Add PostgreSQL/MySQL support via SQLAlchemy.
     - Bootstrap or TailwindCSS Integration – Improve default UI with modern styling.
     - Blueprints for Modular Development – Improve project scalability by structuring routes into Flask Blueprints.
     - Mention how you can toggle authentication in README
     - Mention how you can toggle autorun in README
     - Add support for OAuth
-    - Add how you can change the encryption key in .env, add how you can add a .gitignore
-    - Add how you can change the different fields you want in the database
-    - Add a part about famous sites which use Flask such as Reddit, Lyft, Netflix, Patreon, Pinterest, trivago, uber, Zalando, Airbnb, PythonAnywhere, Google Sites
     - Create a video going over how to fork the repository and use the code, maybe hold a workshop at a hackathon for middle school students
     - Add step to checking password where it verifies that the passowrd is not used in the top 20 or so passwords making it easily hackable
-    - Add AI in some capacity and make a chatbot templatr
+    - Add AI in some capacity and make a chatbot template
