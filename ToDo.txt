@@ -2,8 +2,6 @@ To Do List/Features to Add:
     - Support for Multiple Databases – Add PostgreSQL/MySQL support via SQLAlchemy.
     - Bootstrap or TailwindCSS Integration – Improve default UI with modern styling.
     - Blueprints for Modular Development – Improve project scalability by structuring routes into Flask Blueprints.
-    - Mention how you can toggle authentication in README
-    - Mention how you can toggle autorun in README
     - Add support for OAuth
     - Create a video going over how to fork the repository and use the code, maybe hold a workshop at a hackathon for middle school students
     - Add step to checking password where it verifies that the passowrd is not used in the top 20 or so passwords making it easily hackable

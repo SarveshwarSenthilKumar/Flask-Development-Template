@@ -11,7 +11,7 @@ Welcome to the Flask Development Template! This repository serves as a foundatio
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
 - [Database Setup](#database-setup)
-- [Configuration Settings](#configuration-settings)
+- [Configuration Settings / Customization](#configuration-settings)
 - [Famous Websites Using Flask](#famous-websites-using-flask)
 - [Contributing](#contributing)
 - [License](#license)
@@ -133,7 +133,7 @@ Ensure you have the following installed:
 
 The template uses SQLite for database management. The `createDatabase.py` script initializes the database and populates it with initial data. Modify this script to customize your database schema and seed data.
 
-## Configuration Settings
+## Configuration Settings / Customization
 
 ### Changing the Encryption Key
 
